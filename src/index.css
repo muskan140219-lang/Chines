@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-obsidian: #111111;
+    --color-deep-red: #6F1D1B;
+    --color-gold: #B79A62;
+    --color-gold-hover: #C8AD78;
+    --color-warm-ivory: #F5F1E8;
+    --color-surface: #FFFFFF;
+    --color-surface-secondary: #ECE7DD;
+    --color-text-main: #1A1816;
+    --color-text-muted: #706B64;
+    --color-dark-section: #0D0D0D;
+    --color-border: #D8D0C3;
+  }
+}
+
+.font-serif-luxury {
+  font-family: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+}
+
+.font-serif-chinese {
+  font-family: 'Noto Serif SC', 'Cormorant Garamond', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Inter', 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+}
+
+/* Architectural luxury styling */
+.border-luxury {
+  border-color: #D8D0C3;
+}
+
+.bg-warm-ivory {
+  background-color: #F5F1E8;
+}
+
+.bg-secondary-surface {
+  background-color: #ECE7DD;
+}
+
+.text-gold {
+  color: #B79A62;
+}
+
+.border-gold {
+  border-color: #B79A62;
+}
+
+/* Restrained animations */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.00);
+  }
+}
+
+.animate-hero-scale {
+  animation: fadeInScale 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Scrollbar refinement */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-thumb {
+  background: #706B64;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B79A62;
+}

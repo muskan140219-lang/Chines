@@ -1,0 +1,6 @@
+{
+  "name": "Jingtailong International Hotel Beijing",
+  "description": "Official website of Jingtailong International Hotel Beijing (北京京泰龙国际大酒店). A refined hospitality destination in central Dongcheng near Qianmen and Temple of Heaven.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
